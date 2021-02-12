@@ -1,1 +1,31 @@
 /* Use Selectors and attributes for the HTML design */
+h1 {
+  color: blue;
+  text-decoration: line-through;
+  font-size: 100px;
+  text-shadow: 2px 2px 5px red;
+  letter-spacing: 10px;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+h2 {
+  font-size: 100px;
+  text-shadow: 5px 6px 7px rgb(255, 199, 96);
+  text-align: center;
+}
+
+h3 {
+  text-decoration: underline;
+  font-size: 100px;
+  text-shadow: 5px 6px 7px green;
+  color: rgb(255, 44, 44);
+  text-align: center;
+}
+.box-1 {
+  border-style: solid;
+  border-top-color: red;
+  border-bottom-color: green;
+  border-left-color: goldenrod;
+  border-right-color: lightseagreen;
+}
